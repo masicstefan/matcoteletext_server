@@ -20,6 +20,7 @@ opiskategorije VARCHAR(80) NOT NULL,
 stevilkakategorije INT NOT NULL
 );
 
+-- INSERT ukazi za potrebe inicialnega vnosa...
 INSERT INTO novica VALUES (100, 'Hujša nevihta v Mariboru', 'Na Štajerskem, predvsem na širšem območju Maribora se je popoldne razvila hujša nevihta, ponekod je padala toča', 'Novica');
 INSERT INTO novica VALUES (111, '25 let od potresa v posočju', 'Zgornje Posočje je na velikonočno nedeljo pred 25 leti stresel najmočnejši potres.', 'Novica');
 INSERT INTO novica VALUES (112, 'Najnižja rast števila upokojencev', 'Lani je bilo prejemnikov pokojnin v povprečju malenkost več kot 628 tisoč.', 'Novica');
